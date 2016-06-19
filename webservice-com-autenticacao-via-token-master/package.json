@@ -1,0 +1,20 @@
+{
+  "name": "criando-webservice-com-autenticacao-via-token",
+  "version": "0.0.1",
+  "description": "Projeto destinado ao workshop da Infoeste 2016",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --use_strict server.js"
+  },
+  "author": "Jorge Rafael <jorgerafael@uxer.com.br>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.1",
+    "cookie-session": "^2.0.0-alpha.1",
+    "express": "^4.13.4",
+    "jsonwebtoken": "^5.7.0",
+    "mysql": "^2.10.2"
+  }
+}
